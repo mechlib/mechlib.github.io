@@ -1,0 +1,14 @@
+tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+body {
+  background: #e0e8f0;
+  background: linear-gradient(to right, #e0eeff, #caeaff);
+}
+
+
+#sticky-footer {
+  flex-shrink: none;
+}

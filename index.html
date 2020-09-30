@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href ="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+<!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src ="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src ="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  
+</head>
+<body>
+    <div style="background: url(https://source.unsplash.com/6pO3QFkk7hQ/1600x900/?)" class="jumbotron bg-cover text-white">
+        <div class="container-fluid py-2 text-center">
+            <h1 class="display-4 font-weight-bold">S.J.C Institute of Technology.</h1>
+            <h4 class="display-6 font-weight-bold">Welcome to Mechanical Engineering Department.</h4>
+        </div>
+    </div>
+    <div class="container">
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>BOOK TITLE</th>
+                <th>AUTHOR</th>
+                <th>RACK No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>S S Bhavikatte, K G Raja Shekarappa</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>K L Kumar Velan</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>R Kumara</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Principles of Engineering Mechanics</td>
+                <td>H R Harrison , T Nettleton</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Engineering statics</td>
+                <td>Ferdinand P Beer, E Russel, Johnston </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Engineers Dynamics</td>
+                <td>Ferdinand P Beer, E Russel, Johnston</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics</td>
+                <td>D S Mathur</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics statics & Dynamics</td>
+                <td>Irvin G H Shames</td>
+                <td>01</td>
+            </tr>  
+    
+            <tr>
+                <td>Mechanics</td>
+                <td>P K Srinivatava</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering mechanics of Mechanical</td>
+                <td>S S Bhavikatti</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>K Rama Reddy</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>R K Bhansal</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics statics and dynamics</td>
+                <td>S rajashekar, G sanakara Subramanian</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics for Engineers Dynamics</td>
+                <td>Ferdinand P Beer , E Russel Johnston </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering mechanics statics & dynamics</td>
+                <td>A K Tayal</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics Statics and Dynamics</td>
+                <td>Ferdinand L </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>Dr. R k Bansal</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Applied Mechanics</td>
+                <td>S Ramamrutham</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>R S Khurmi</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics statics & Dynamics</td>
+                <td>Iriving H shames</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics statics & Dynamics</td>
+                <td>Ferdinand L Singer</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Principles of Mechanics</td>
+                <td>John L Synge, Byron A griffith</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Problems & solutions in Engineering Mechanics</td>
+                <td>S S Bhavikatti</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics</td>
+                <td>Charles Kittel , Walter D knight</td>
+                <td>01</td> 
+            </tr>
+            <tr>
+                <td>Elementary Statistical Mechanics</td>
+                <td>Gupta Kumar</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>A R Basu</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics Statics & dynamics</td>
+                <td>Dr. S Siddappa , Dr. K narayana Murthy</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Materials </td>
+                <td>Ferdinand P Beer, E Russel Johnston </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Materials</td>
+                <td>James M Gere</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Engineering mechanics  dynamics</td>
+                <td>R C Hibbeler</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Applied  Mechanics</td>
+                <td>Ramchachandra</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Applied  Mechanics</td>
+                <td>I B prasad</td>
+                <td>01</td>
+            </tr>  
+    
+            <tr>
+                <td>Applied  Mechanics</td>
+                <td>R S Khurmi</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Elements of applied Mechanics</td>
+                <td>S B Junnarkar</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Applied  Mechanics</td>
+                <td>S Ramamrutham</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Applied mechanics and Strength Of materials</td>
+                <td>R S Khurmi</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Elements of Mechanics</td>
+                <td>K Rama reddy, S Raghavan , Dr. N sharma</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Materials</td>
+                <td>Andrew Pyteljaan kiusalaas</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics of materials</td>
+                <td>Ferdinand P Beer, E russel Johnston </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Advanced mechanics of materials</td>
+                <td>William B bickford</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics Of Materials</td>
+                <td>Gere & Timoshenko</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Structural design & drawing</td>
+                <td>Dr. D Krishnamurthy</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Design of Machine Elements</td>
+                <td>V B Bhandari</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Mechanics for engineers statics</td>
+                <td>Ferolinand P Beer, E Russel Johnston </td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Textbook of Applied Mechanics</td>
+                <td>M M Machotra</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Textbook of Applied Mechanics</td>
+                <td>I B Prasad</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>Andrew Pytel</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>R S Khurmi</td>
+                <td>02</td>
+            </tr>
+
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>W A Nash</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>W A Nash</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>Stephen Timoshenko</td>
+                <td>02</td>
+            </tr> 
+            <tr>
+                <td>Strength Of Materials & Mechamics of Structure</td>
+                <td>Dr. B c Punmia</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>S Ramarrutham</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>B S Basavarajaiah</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>I  B Prasad</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>Dr. R K Bansal</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Engineering Mechanics</td>
+                <td>Dr. R K Bansal</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength of Materials</td>
+                <td>Dr. R K Bansal</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials laboratory manual</td>
+                <td>S T Nagaraja, S N Ramadas</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>Jainti Prasad & D P Shukla</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>Surendra Singh</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>K V Rao, G C raju</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>S S Bhavikatti</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Engineering mechanics & Strength of Materials</td>
+                <td>A Kumar</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Strength Of Materials</td>
+                <td>B C Punmia</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>An Aid to solving problems in strength of Materials</td>
+                <td>I N Mirolyubov, S A Engalychev</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Classical Dynamics</td>
+                <td>Donald T Green Wood</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Quantum Mechanics</td>
+                <td>V K Thankappan</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Quantum Mechanics</td>
+                <td>P T Matthews</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Quantum Mechanics</td>
+                <td>Leonard I schiff</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Classical Mechanics</td>
+                <td>Herbert Goldstein</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Quantum Mechanics</td>
+                <td>B K Agarwal, Hari Prakash</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Quantum Mechanics</td>
+                <td>Chatwal Anand</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Classical Dynamics</td>
+                <td>Donald T Greenwood</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Experiments in Mechanics of Solids</td>
+                <td>B M Raval</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Advanced Mechanics of Solids</td>
+                <td>L S Srinath</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Elementary Mechanics of Solids</td>
+                <td>P N Singh, P K Jha</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Elementary Mechanics of Solids</td>
+                <td>Egor P Popov</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Solid Mechanics</td>
+                <td>Sma Kaziimi</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Solids</td>
+                <td>C T F Ross</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Soil Mechanics SI version</td>
+                <td>T William Lambe</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Structural Mechanics</td>
+                <td>A Darkov</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Applied elasticity Matrix & tensor Analysis of Elastic continua</td>
+                <td>J D Renton</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Principles of Agriculture Engineering</td>
+                <td>A M Micha EL , T P Ojha</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Elements of properties of Matter</td>
+                <td>D S Mathur</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Reinforced Structures</td>
+                <td>Dr. B c Punmia</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Plasticity & Impact mechanics</td>
+                <td>N K gupta</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Fracture Mechanics for Modern Engineering Design</td>
+                <td>K R Y Simha</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Theory of Mechanisms & Machines</td>
+                <td>Dr. Jagadish Lal</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Theory Of Elasticity</td>
+                <td>S P Timoshen</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Structures Vol-1</td>
+                <td>S B Junnarkar</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Theory of Structures</td>
+                <td>S Ramamrutham</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Advanced Structural Analysis with Computer applications</td>
+                <td>Ashok K jain</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Introduction to Mechanics of Materials</td>
+                <td>William Firiley</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Solid Mechanics</td>
+                <td>S A Urry, P J Turner</td>
+                <td>02</td>
+            </tr>
+            <tr>
+                <td>Mechanics of Elastic –Plastic Fracture</td>
+                <td>V Z Parton, E M Morozov</td>
+                <td>02</td>
+            </tr>
+
+            <tr>
+                <td>The Theory Of Machine</td>
+                <td>Malhotra’s & Gupta’s</td>
+                <td>02</td>
+            </tr> 
+            <tr>
+                <td>Theory of Mechanism & Machines</td>
+                <td>Amithabha ghosh</td>
+                <td>03</td>
+            </tr>
+
+            <tr>
+                <td>Theory of Machines</td>
+                <td>S S Rathan</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines</td>
+                <td>Thomas Bevan</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines</td>
+                <td>R S Khurmi</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines</td>
+                <td>R S Khurmi</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines</td>
+                <td>Sadhu Singh</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>Solved Problems</td>
+                <td>J S Rao</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines & Mechanism</td>
+                <td>Josephe Shterey</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>The Theory of Machines 1</td>
+                <td>A S Ravindra</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>Mechanism and Dynamics of Machinery</td>
+                <td>Hamilton H Mabie & Fredw Ocvink</td>
+                <td>03</td>
+            </tr>
+            <tr>
+                <td>Engineering design for safety</td>
+                <td>Thomas A Hunter</td>
+                <td>03</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>NAME</th>
+                <th>AUTHOR</th>
+                <th>RACK</th> 
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; SJCIT</small>
+        </div>
+      </footer>
+    <script src ="script.js"></script>
+
+<!--       
+░░░░░░░░░░█████╗░███╗░░██╗██╗░░██╗██╗████████╗
+░░░░░░░░░██╔══██╗████╗░██║██║░██╔╝██║╚══██╔══╝
+░░░░░░░░░███████║██╔██╗██║█████═╝░██║░░░██║░░░
+░░░░░░░░░██╔══██║██║╚████║██╔═██╗░██║░░░██║░░░
+██╗██╗██╗██║░░██║██║░╚███║██║░╚██╗██║░░░██║░░░
+╚═╝╚═╝╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░░╚═╝░░░
+
+░██████╗░█████╗░██╗░░░██╗██████╗░░█████╗░██████╗░██╗░░██╗░░░░░░░░░
+██╔════╝██╔══██╗██║░░░██║██╔══██╗██╔══██╗██╔══██╗██║░░██║░░░░░░░░░
+╚█████╗░███████║██║░░░██║██████╔╝███████║██████╦╝███████║░░░░░░░░░
+░╚═══██╗██╔══██║██║░░░██║██╔══██╗██╔══██║██╔══██╗██╔══██║░░░░░░░░░
+██████╔╝██║░░██║╚██████╔╝██║░░██║██║░░██║██████╦╝██║░░██║██╗██╗██╗
+╚═════╝░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═╝╚═╝╚═╝ -->
+    
+</body>
+</html>
