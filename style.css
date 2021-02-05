@@ -12,3 +12,27 @@ body {
 #sticky-footer {
   flex-shrink: none;
 }
+
+.carousel{
+    background: #2f4357;
+    margin-top: 0px;
+}
+.carousel-item{
+    text-align: center;
+    max-height: 750px;/* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel-content {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+}
+h1{
+  font-weight: bold;
+  color: #FFFF00;
+
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+}
