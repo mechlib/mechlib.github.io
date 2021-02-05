@@ -19,7 +19,7 @@ body {
 }
 .carousel-item{
     text-align: center;
-    max-height: 200px;/* Prevent carousel from being distorted if for some reason image doesn't load */
+    max-height: 700px;/* Prevent carousel from being distorted if for some reason image doesn't load */
 }
 .carousel-content {
   position: absolute;
