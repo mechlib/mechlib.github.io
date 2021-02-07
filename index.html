@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MED LIBRARY</title>
     <link rel="stylesheet" href="style.css">
-    
+
+    <link rel="icon" href="logo.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href ="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
@@ -21,38 +25,34 @@
 </head>
 <body>
   <div class="container-lg my-3">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="11.jpg" alt="First Slide">
-                <div class="carousel-content">
-                  <h1 style="font-size:90px;">WELCOME TO MED LIBRARY</h1>
-                  
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="91.jpg" alt="Second Slide">
-            </div>
-            <div class="carousel-item">
-                <img src="10.jpg" alt="Third Slide">
-            </div>
-        </div>
-        <!-- Carousel controls -->
-        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="91.jpg" alt="First slide">
+        <h1 class="text">WELCOME TO MED LIBRARY</h1>
+
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 spcimg" src="6.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="4.jpg" alt="Third slide">
+      </div>
     </div>
-</div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
     <!-- <div style="background: url(https://source.unsplash.com/6pO3QFkk7hQ/1600x900/?)" class="jumbotron bg-cover text-white">
         <div class="container-fluid py-2 text-center">
             <h1 class="display-4 font-weight-bold">S.J.C Institute of Technology.</h1>
@@ -108,8 +108,8 @@
                 <td>Engineering Mechanics statics & Dynamics</td>
                 <td>Irvin G H Shames</td>
                 <td>01</td>
-            </tr>  
-    
+            </tr>
+
             <tr>
                 <td>Mechanics</td>
                 <td>P K Srinivatava</td>
@@ -188,7 +188,7 @@
             <tr>
                 <td>Mechanics</td>
                 <td>Charles Kittel , Walter D knight</td>
-                <td>01</td> 
+                <td>01</td>
             </tr>
             <tr>
                 <td>Elementary Statistical Mechanics</td>
@@ -229,8 +229,8 @@
                 <td>Applied  Mechanics</td>
                 <td>I B prasad</td>
                 <td>01</td>
-            </tr>  
-    
+            </tr>
+
             <tr>
                 <td>Applied  Mechanics</td>
                 <td>R S Khurmi</td>
@@ -326,7 +326,7 @@
                 <td>Strength Of Materials</td>
                 <td>Stephen Timoshenko</td>
                 <td>02</td>
-            </tr> 
+            </tr>
             <tr>
                 <td>Strength Of Materials & Mechamics of Structure</td>
                 <td>Dr. B c Punmia</td>
@@ -557,7 +557,7 @@
                 <td>The Theory Of Machine</td>
                 <td>Malhotra’s & Gupta’s</td>
                 <td>02</td>
-            </tr> 
+            </tr>
             <tr>
                 <td>Theory of Mechanism & Machines</td>
                 <td>Amithabha ghosh</td>
@@ -671,10 +671,10 @@
                 <td>DR.A.K.TANDAN</td>
                 <td>11</td>
             </tr>
-         
-            
-            
- 
+
+
+
+
 <tr>
                 <td>MODERN CONTROL SYSTEM</td>
                 <td>ROBERT H. BISTON</td>
@@ -1343,63 +1343,63 @@
                 <td>MANUFACTURE ENGINEERRING AND METALLURGY</td>
                 <td>FOURTH EDITION</td>
                 <td>13</td>
-            </tr>         
+            </tr>
 <tr>
                 <td>MATERIAL SCIENCE AND TECHNOLOGY</td>
                 <td>O P KHANNA</td>
                 <td>13</td>
-            </tr>    
+            </tr>
 
             <tr>
                 <td>ELEMENT OF MATERIAL SCIENCE AMD ENGINERRING</td>
                 <td>H. VANVLACK</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRINCIPAL OF INDUSTRIAL METAL WOKRING PROCESSES</td>
                 <td>G W ROWE</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY </td>
                 <td>B D ARORA</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING METALLURGY</td>
                 <td>M S RAMAIAH</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>HEAT &MASS TRASFER </td>
                 <td>R K HEGDE</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTUREING TECHNOLOGY</td>
                 <td>P N RAO</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE AND MATALLURGY</td>
                 <td>K R PHANEESH</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURING TECHNOLOGY</td>
                 <td>A.B.GUPTA</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>DIES MOULDS AND JIGS</td>
                 <td>V.VLADIMIROLD</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE &PROCESSES</td>
                 <td>S.K.HAJRA CHOUDHURY</td>
                 <td>13</td>
-            </tr>    
+            </tr>
 
 
 
@@ -1408,52 +1408,52 @@
                 <td>MATERIAL</td>
                 <td>FRANK AYRES JR</td>
                 <td>13</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION TECHNOLOGY</td>
                 <td>R.K. JAIN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCT DESIGN &MANUFACURING</td>
                 <td>A.K.CHITALE</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCT DESIGN &DEVELOPMENT </td>
                 <td>KARL T ULRICH</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION TECHNOLOGY</td>
                 <td>DR L KRISHNA REDDY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE &MELALLUGY</td>
                 <td>O.P.KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>INTELLIGENT MANUFACTURING</td>
                 <td>LYNN UNDERWOOD</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>METAL CUTTING PRINCIPALS</td>
                 <td>MILTON SHAW</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>METAL CASTING</td>
                 <td>TV RAMANNA RAO</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRINCIPLES OF METAL CUTTING</td>
                 <td>G KUPPUSWAMY</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
 
@@ -1461,156 +1461,156 @@
                 <td>PRODUCT DESIGN &MANUFACTURING</td>
                 <td>A.K.CHITALE </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION TECHNOLOGY</td>
                 <td>R.K.JAIN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION TECHNOLOGY</td>
                 <td>HMT</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINERRING METALLRGY</td>
                 <td>RAYMOND A HIGGINS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRINCIPLES OF FOUNDRY TECHNOLOGY</td>
                 <td>P L JAIN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>FOUNDRY ENGINEERING</td>
                 <td>R L AGARWAL</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>FOUNDRY ENGINEERING</td>
                 <td>PEETER BEEKY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURE TECHNOLOGY</td>
                 <td>A B GUPTA </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURE TECHNOLOGY</td>
                 <td>P N RAO</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>FUNDAMENTAL OF METAL CUTTING AND MACHINE TOOLS </td>
                 <td>B L JUNEJA</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
             <tr>
                 <td>INTRODUCTION TO PHYSICAL METALLURGY</td>
                 <td>SIDNEY H AVNER</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERILA SCIENCE & METALLURGY</td>
                 <td>DR O P KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>FUNDAMENTALS OF METAL CUTTING &MACHINE TOOLS</td>
                 <td>B L JUNEJA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>TESTING OF ENGG MATERIAL </td>
                 <td>HEMANT SOOD</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>METAL CUTTING TOOL DESIGN</td>
                 <td>DR BJ RANGANATH</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MECHANICS ENGINEERING </td>
                 <td>R.S KHURMI </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>FOUNDRYMANS HAND BOOK</td>
                 <td>T A BURNS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE &METALLURGY</td>
                 <td>DR O P KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRINCIPALS OF ENGINERRING METALLURGY</td>
                 <td>L. LRISHNA REDDY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>POWDER METALLURGY</td>
                 <td>A K SINHA</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
             <tr>
                 <td>MANUFACTURE ENGINEERING AND TECHNOLOGY</td>
                 <td>SHELLY PETRONIS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>AUTOMATION PRODUCTION INTEGRATED &COMPUTER </td>
                 <td>MIKELL P GROOVER</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL &PROCESSES IN MANUFACTURING</td>
                 <td>E PAUL DEGARMO</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MECHANICAL METALLURGY</td>
                 <td>GEORGE E DIETER</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION ENGINEERING</td>
                 <td>P C SHARMA </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PRODUCTION TECHNOLOGY</td>
                 <td>DHANPAT RAI &SONS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>HYDRAULIES &PNEUMATICS</td>
                 <td>R K HEGDE</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE &METALLURGY</td>
                 <td>DR. O P KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>METALLURGY PROCESSES</td>
                 <td>H S BAWA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGLISH FOR ENGINEERS</td>
                 <td>FOUNDATION</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
 
@@ -1618,104 +1618,104 @@
                 <td>METALLURGY</td>
                 <td>L KRISHNA REDDY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>PHOTOVOLTAIC</td>
                 <td>R VAN OVERSTACTRN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>INRELLIGENT MANUFACTURING </td>
                 <td>LYNN UNDERWOOD</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURE SCIENCE </td>
                 <td>AMITABHA GHOSH</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MODERN MACHINIG PROCESSES</td>
                 <td>P C PANDEY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>CNC MACHINES</td>
                 <td>B S PABLA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>HIGH TEMPERATURE COMPOUNDS PROPERTICS</td>
                 <td>Y YA KOSALAPOKA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>HAND BOOK OF STUCTURAL CERAMICS</td>
                 <td>MUM SCHWARTZ</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>SLIP FORMING</td>
                 <td>S.K.GROVER</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>AN INTRODUCTION METALLURGY</td>
                 <td>SIR ALAN UPADHYAYA</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
             <tr>
                 <td>MATERIAL SCINECE`&METALLARGY</td>
                 <td>O P KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>POWDER METALLURGY</td>
                 <td>ANISH UPADHYAYA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCINECE`&METALLARGY</td>
                 <td>O P KHANNA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>A TEXT BOOK OF MATERIAL SCIENCE AND METALLURGY</td>
                 <td>O P KHANNA </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING METROLOGY</td>
                 <td>I C GUPTA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING METROLOGY</td>
                 <td>R K JAIN </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>DIMENSIONSAL METROLOGY</td>
                 <td>L THOMPSON</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING METROLOGY </td>
                 <td>K J HUME</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING METROLOGY</td>
                 <td>I C GUPTA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>RELIBILITY &MAINTAINTANCE</td>
                 <td>R C MISHRA</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
 
@@ -1723,104 +1723,104 @@
                 <td>INTRIDUCTION TO MACHINING SCIENCE </td>
                 <td>G K LAL</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTUREING SCIENCE &TECHNOLOGY</td>
                 <td>K VARA PRASODA RAO</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>W A J CHAPMAN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>W A J CHAPMAN</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURING SCIENCE &TECHNOLOGY </td>
                 <td>K VARA PRASADA RAO</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>INTRODUCTION TO MACHINING SCIENCE </td>
                 <td>G K LAL </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>RELIBILITY AND MAINTAINACE ENGNEERING</td>
                 <td>R C MISHRA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING MATALLURGY</td>
                 <td>RAYMOND A HIGGINS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>ENGINEERING MATROLOGY</td>
                 <td>RAYMOND A HIGGINS</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>DIMENSION METROLOGY</td>
                 <td>RICHARD L</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
             <tr>
                 <td>ENGINEERING METROLOGY</td>
                 <td>K J HUME </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>S K HAJRA CHOUDHURY</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>B S RAGHUWASHI </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>B D ARORA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>WORK SHOP TECHNOLOGY</td>
                 <td>B S RAGHUWANSH</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL SCIENCE &METALLURGY</td>
                 <td>O P KHANNA </td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>TESTING OF METALLI MATERIAL </td>
                 <td>A V K SURYANARAYANA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MATERIAL AND METALLURGY</td>
                 <td>H S BAWA</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MANUFACTURING SCIENCE</td>
                 <td>AMILABHA GHOSH</td>
                 <td>14</td>
-            </tr>    
+            </tr>
             <tr>
                 <td>MACHINE TOOLS</td>
                 <td>KARIH HELLER</td>
                 <td>14</td>
-            </tr>  
+            </tr>
 
 
 
@@ -1838,8 +1838,8 @@
                 <td>INTRODUCTION MECHANICS OF MATERIAL </td>
                 <td>WILLIAM F RILEY</td>
                 <td>3</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -1884,7 +1884,7 @@
                 <td>3</td>
             </tr>
 
-          
+
 
 
 
@@ -1893,8 +1893,8 @@
                 <td>LIMIT STATE DESIGN</td>
                 <td>DR D GANGA GANDHARAM</td>
                 <td>3</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -1938,7 +1938,7 @@
                 <td>JOSEPH BEN</td>
                 <td>3</td>
             </tr>
-            
+
 
 
 
@@ -1947,8 +1947,8 @@
                 <td>FARM MACHINE & EQUIPMENT</td>
                 <td>C.P NAKRA</td>
                 <td>3</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -1992,7 +1992,7 @@
                 <td>DR. R.C VAHL</td>
                 <td>3</td>
             </tr>
-            
+
 
 
 
@@ -2001,8 +2001,8 @@
                 <td>MECHANICAL ENGG DESIGN</td>
                 <td>JOSEPH EDWARD </td>
                 <td>3</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2046,15 +2046,15 @@
                 <td>JOSEPH EDWARD SHIGLEY </td>
                 <td>3</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>DESIGN OF MACHINE ELEMENTS </td>
                 <td>V.B BHANDAVI</td>
                 <td>3</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2098,15 +2098,15 @@
                 <td>O.P. GROUER</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>COMPUTER AIDED DESIGN</td>
                 <td>C.S.KRISHNA MURTHY</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2150,7 +2150,7 @@
                 <td>AMITHABHA GHOSH</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 
@@ -2158,8 +2158,8 @@
                 <td>MECHANICAL ANALYSIS & DESIGN</td>
                 <td>ARTHUR H. BURR</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2203,15 +2203,15 @@
                 <td>N.K.MEHTA</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>FINITE ELEMENT PROCEDURES</td>
                 <td>KLAUS-JUREEN BATHE</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2255,15 +2255,15 @@
                 <td>DAVID V. HUTTON</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>AN INTRODUCTION OF THE FINITE ELEMENT METHOD</td>
                 <td>J.N.REDDY</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2307,15 +2307,15 @@
                 <td>GEORGE R. BUCHANAN</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>INTRODUCTION TO THE FINITE ELEMENT METHOD</td>
                 <td>DESAI/ABEL</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2359,15 +2359,15 @@
                 <td>ROBERT D  COOK</td>
                 <td>4</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>THE FINITE ELEMENT METHOD</td>
                 <td>O.C ZIENKIE WICZ</td>
                 <td>4</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2414,14 +2414,14 @@
                 <td>R.S KHURMI </td>
                 <td>5</td>
             </tr>
-            
+
 
 <tr>
                 <td>MACHINE DESIGN</td>
                 <td>R.S KHURMI</td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2465,15 +2465,15 @@
                 <td>WILLIAM T THOMSON</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>MECHANICAL VIBRATIONS</td>
                 <td>SINGIRESU S RAO</td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2517,15 +2517,15 @@
                 <td>P,SRINIVAS</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>MECHANICAL VIBRATIONS</td>
                 <td>FRANCIS TSE</td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2569,15 +2569,15 @@
                 <td>DR C.S SHSRMA</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>MACHINERY VIBRATION ANALYSIS</td>
                 <td>V.P SINGH</td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2621,15 +2621,15 @@
                 <td>W.T THOMSON</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>NUMERICAL METHOD FOR SCINETIFIV & ENGG COMPUTATION</td>
                 <td>M.K JAIN </td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2673,15 +2673,15 @@
                 <td>S, GRAHAM KELLY</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>COURSE ON THEORY & PRACTICE OF MRCHANICAL VIBERATION </td>
                 <td>J.S RAO </td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2725,15 +2725,15 @@
                 <td>R.S SIROHI</td>
                 <td>5</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>INDUSTRIAL CONTROL & INSTRUMENTATION</td>
                 <td>W. DOLTON</td>
                 <td>5</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2777,15 +2777,15 @@
                 <td>R K RAJPUT</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>POWER PLANT ENGINEERING</td>
                 <td>ARORA</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2829,15 +2829,15 @@
                 <td>G D RAI</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>SOLAR ENERGY</td>
                 <td>H P GARG</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2881,15 +2881,15 @@
                 <td>ARCHIE W CULP JR</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>SOLAR ENERGY UTILIZATION</td>
                 <td>G D RAI</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2933,15 +2933,15 @@
                 <td>M S SUDHA</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>PRINCIPLE OF ENERGY CONVERSION</td>
                 <td>ARCHIE W. CULP JR</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -2985,15 +2985,15 @@
                 <td>V VN KISHORE</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>ASOCAR MANIFESTO</td>
                 <td>ARMAN SCHEER</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3037,7 +3037,7 @@
                 <td>THE NATIONAL ACADEMY OF SCIENCE</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 
@@ -3061,15 +3061,15 @@
                 <td>----------</td>
                 <td>6</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>MODERN TECHNOLOGY OF PETROLEUM GREECES LUBRICANTS PETRO CHEMICALS</td>
                 <td>NIIR BOARD</td>
                 <td>6</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3113,15 +3113,15 @@
                 <td>Baljeets kapoor</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>Practical fluid mechanical for engg & scientists</td>
                 <td>Nicholas p cheremisiorff</td>
                 <td>7</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3165,7 +3165,7 @@
                 <td>M. Manohar</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 
@@ -3189,15 +3189,15 @@
                 <td>R.J garde </td>
                 <td>7</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>Advanced engg fluid mechanics</td>
                 <td>K. muralidhar</td>
                 <td>7</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3241,15 +3241,15 @@
                 <td>N.P. cheremisionoff</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>Fluid mechanics</td>
                 <td>Dr. A.K Jain</td>
                 <td>7</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3293,7 +3293,7 @@
                 <td>R.J Garde</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 
@@ -3316,15 +3316,15 @@
                 <td>Dr R.K. Bansal</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>Fluid Mechanics & Fluid Power Engg</td>
                 <td>Dr. D.S Kumar</td>
                 <td>7</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3368,15 +3368,15 @@
                 <td>P.N Modi</td>
                 <td>7</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>Hydraulics & Fluid Mechanics</td>
                 <td>P.N Modi</td>
                 <td>7</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3420,7 +3420,7 @@
                 <td>R.K. Hegde</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 
@@ -3443,17 +3443,17 @@
                 <td>M.K. MURALIDHARA</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>THEORY & PROBLEMS OF ENGG</td>
                 <td>PR.S.L.
-SOMSUNDARAM 
+SOMSUNDARAM
 </td>
                 <td>8</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3499,15 +3499,15 @@ WYLEN
                 <td>KHAJURIA</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>MECHANISMS &DYNAMICS OF MACHINERY </td>
                 <td>J.SRINIVAS</td>
                 <td>8</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3526,7 +3526,7 @@ WYLEN
 
 
 <tr>
-                <td>FLUID DYNAMICS & HEAT TRANSFER IN SUPERCONDUCTING 
+                <td>FLUID DYNAMICS & HEAT TRANSFER IN SUPERCONDUCTING
 ERUIPMENT
 </td>
                 <td>R.I SOZIEV</td>
@@ -3553,7 +3553,7 @@ ERUIPMENT
                 <td>M.MANOHARA</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
@@ -3575,15 +3575,15 @@ ERUIPMENT
                 <td>RANALDV GILES</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>PUMP OPERATIONS & MAINTENANCE </td>
                 <td>TYLER .G. HICKS</td>
                 <td>8</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3627,15 +3627,15 @@ ERUIPMENT
                 <td>JAGADISHLAL</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>A KALEIDOSCOPICVIEW OF FLUID FLOW PHENOMENA</td>
                 <td>BIH LAKSHMANA GOWDA</td>
                 <td>8</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3679,7 +3679,7 @@ ERUIPMENT
                 <td>DR.PRITHVI RAJ</td>
                 <td>8</td>
             </tr>
- 
+
 
 
 
@@ -3730,15 +3730,15 @@ ERUIPMENT
                 <td>S.M.YAHYA</td>
                 <td>8</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>THERMAL ENGG</td>
                 <td>R.K RAJPUT</td>
                 <td>8</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3782,15 +3782,15 @@ ERUIPMENT
                 <td>ZERMANSKY</td>
                 <td>9</td>
             </tr>
-            
+
 
 
 <tr>
                 <td>BASIC ENGG THERMODYNAMICS</td>
                 <td>ROY CHOUDHARY</td>
                 <td>9</td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3837,17 +3837,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -3889,15 +3889,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3944,15 +3944,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -3996,17 +3996,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4050,15 +4050,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4102,15 +4102,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4156,17 +4156,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4208,15 +4208,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4262,15 +4262,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4314,17 +4314,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4368,17 +4368,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4420,26 +4420,26 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
+
 
 
 
-           
 
 
 
@@ -4455,15 +4455,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4507,9 +4507,9 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4529,17 +4529,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4581,17 +4581,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4633,7 +4633,7 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
- 
+
 
 
 
@@ -4684,17 +4684,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4736,17 +4736,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4791,15 +4791,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4843,15 +4843,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -4898,17 +4898,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -4950,17 +4950,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -5004,17 +5004,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -5056,17 +5056,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -5110,15 +5110,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -5162,17 +5162,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -5216,17 +5216,17 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
@@ -5268,15 +5268,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
+
 
 
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -5322,15 +5322,15 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
+
 
 
 <tr>
@@ -5374,27 +5374,27 @@ ERUIPMENT
                 <td></td>
                 <td></td>
             </tr>
-            
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>  
-         
+            </tr>
 
 
+
 <tr>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
+
 
 
 
 
-         
 
 
         </tbody>
@@ -5402,12 +5402,12 @@ ERUIPMENT
             <tr>
                 <th>NAME</th>
                 <th>AUTHOR</th>
-                <th>RACK</th> 
+                <th>RACK</th>
             </tr>
         </tfoot>
     </table>
     </div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <footer id="sticky-footer" class="py-4 foot text-white-50">
         <div class="container text-center">
           <small> Copyright @SJCIT</small>
         </div>
@@ -5415,6 +5415,6 @@ ERUIPMENT
     <script src ="script.js"></script>
 
 
-    
+
 </body>
 </html>
