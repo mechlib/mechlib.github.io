@@ -5,6 +5,7 @@ $(document).ready(function() {
         $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
     } );
  
+    
     // DataTable
     var table = $('#example').DataTable({
         initComplete: function () {
